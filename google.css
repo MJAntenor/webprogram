@@ -81,3 +81,18 @@ img {
     margin-right: auto;
     display: block;
 }
+
+.corner img {
+    height: 92px;
+}
+
+label {
+    margin-left:10px;
+    color: #f28b82;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+}
+
+.appbar {
+    margin: 25px 35px;
+}
