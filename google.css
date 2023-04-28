@@ -96,3 +96,19 @@ label {
 .appbar {
     margin: 25px 35px;
 }
+
+.line {
+    color: #3c4043;
+    border-bottom: 1px solid;
+    display: block;
+}
+
+.advanced_search {
+    margin: 40px 2% 0 45px;
+}
+
+span {
+    font-size: 16px;
+    color: #e8eaed;
+    height: 30px;
+}
