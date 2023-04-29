@@ -13,14 +13,36 @@
         </div>
         <div class="line"></div>
         <div class="advanced_search">
-            <span>Find pages with...</span>
-        <form action="https://google.com/search">
-            <input type="text" name="as_q">
-            <input type="text" name="as_epq">
-            <input type="text" name="as_oq">
-            <input type="text" name="as_eq">
-            <input type="submit" value="Advanced Search">
-        </form>
+            <div class="pages-wrapper">
+                <span class="pages">Find pages with...</span>
+            </div>
+            <form action="https://google.com/search">
+                <div class="span_block">
+                    <div class="span-wrapper">
+                        <span>all these words: </span>
+                    </div>
+                </div>
+                <input type="text" name="as_q">
+                <div class="span_block">
+                    <div class="span-wrapper">
+                        <span>this exact word or phrase: </span>
+                    </div>
+                </div>
+                <input type="text" name="as_epq">
+                <div class="span_block">
+                    <div class="span-wrapper">
+                        <span>any of these words: </span>
+                    </div>
+                </div>
+                <input type="text" name="as_oq">
+                <div class="span_block">
+                    <div class="span-wrapper">
+                        <span>none of these words: </span>
+                    </div>
+                </div>
+                <input type="text" name="as_eq">
+                <input type="submit" value="Advanced Search">
+            </form>
         </div>
     </body>
 </html>

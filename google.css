@@ -1,5 +1,6 @@
 body {
     background: #202124; 
+    margin: 0px;
 }
 
 .header {
@@ -105,10 +106,58 @@ label {
 
 .advanced_search {
     margin: 40px 2% 0 45px;
+    display: block;
+    width: 100%;
 }
 
-span {
+.advanced_search input {
+    display: inline-block;
+    vertical-align: middle; 
+    text-align: left;
+    background-color: #202124;
+    border: 1px solid #5f6368;
+    color: #bdc1cb;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    padding-right: 16px;
+    min-width: 167px;
+    margin-right: 16px;
+    width: 50%;
+}
+
+.pages {
     font-size: 16px;
     color: #e8eaed;
     height: 30px;
+    font-family: arial, sans-serif;
+    height: 30px;
+}
+
+.pages-wrapper {
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+    padding-bottom: 42px;
+}
+
+span {
+    color: #bdc1cb;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
+}
+
+.span-wrapper {
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.span_block {
+    display: inline-block;
+    width: 167px;
+    min-height: 42px;
+    line-height: 16px;
+    vertical-align: middle;
 }
