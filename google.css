@@ -118,12 +118,10 @@ label {
     border: 1px solid #5f6368;
     color: #bdc1cb;
     font-size: 13px;
-    height: 29px;
-    padding: 1px 8px;
+    height: 25px;
     padding-right: 16px;
-    min-width: 167px;
-    margin-right: 150px;
-    width: 565px;
+    margin-right: 600px;
+    width: 570px;
 }
 
 .pages {
@@ -149,7 +147,17 @@ span {
     margin-top: 15px;
  }
 
- .advanced_button {
+ .advanced_search .advanced_button input{
     height: 30px;
+    float: right;
+    margin-right: 680px;
+    background: #8ab4f8;
+    color: #202124;
     width: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: arial, sans-serif;
+    margin-top: 20px;
+    padding: 0px;
  }
