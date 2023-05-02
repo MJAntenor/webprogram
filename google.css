@@ -118,46 +118,38 @@ label {
     border: 1px solid #5f6368;
     color: #bdc1cb;
     font-size: 13px;
-    height: 25px;
+    height: 29px;
     padding: 1px 8px;
     padding-right: 16px;
     min-width: 167px;
-    margin-right: 16px;
-    width: 50%;
+    margin-right: 150px;
+    width: 565px;
 }
 
 .pages {
     font-size: 16px;
     color: #e8eaed;
-    height: 30px;
+    height: 27px;
     font-family: arial, sans-serif;
-    height: 30px;
-}
-
-.pages-wrapper {
-    height: 30px;
-    vertical-align: middle;
-    display: table-cell;
-    padding-bottom: 42px;
+    margin-top: 15px;
 }
 
 span {
     color: #bdc1cb;
     font-family: arial, sans-serif;
     font-size: 13px;
-
-}
-
-.span-wrapper {
-    height: 30px;
-    vertical-align: middle;
-    display: table-cell;
+    display: inline-block;
 }
 
 .span_block {
     display: inline-block;
     width: 167px;
-    min-height: 42px;
+    min-height: 27px;
     line-height: 16px;
-    vertical-align: middle;
-}
+    margin-top: 15px;
+ }
+
+ .advanced_button {
+    height: 30px;
+    width: 120px;
+ }
